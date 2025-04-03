@@ -1,6 +1,9 @@
 # Lovesmen.gay Subdomain system
 This is a registry for free subdomains on the domain lovesmen.gay.
 
+## Note for Netlify and Vercel:
+As of right now, we have some issues. Please try to not use these services for now.
+
 ## How to use 
 1. Fork this repo
 2. Make a JSON file in domains, the name of the json being how you would like to call the subdomain (for example, if you want arty.lovesmen.gay, you would need to call the JSON arty.json)
