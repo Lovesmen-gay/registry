@@ -1,8 +1,12 @@
 # Lovesmen.gay Subdomain system
 This is a registry for free subdomains on the domain lovesmen.gay.
 
-## Note for Netlify and Vercel:
+## Note for Netlify, Vercel and other services:
 As of right now, we have some issues. Please try to not use these services for now.
+This is most likely because of not being on the PSL. 
+Due to the low amount of users, we cannot request to be on the PSL. Maybe someday we might be able to join the PSL, but not now....
+
+### Please refrain from using Vercel, Netlify and other derivatives that require ownership of domains.
 
 ## How to use 
 1. Fork this repo
