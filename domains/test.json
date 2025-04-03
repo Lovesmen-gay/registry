@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "randomusername"
+    },
+
+    "record": {
+        "TXT": "This should technically work."
+    }
+}
