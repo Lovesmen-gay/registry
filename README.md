@@ -8,16 +8,26 @@ This is a registry for free subdomains on the domain lovesmen.gay.
 ```
 {
     "owner": {
-        "username": "User"
+        "username": "your-github-username"
     },
 
     "record": {
-        "CNAME": "your-website.com",
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
     }
 }
 ```
 You can use many records, such as MX, TXT, CNAME, A and AAAA, including many others.
 You can also add other records.
+
 4. Send a pull request with the newly added JSON file
 5. Wait until it gets accepted and you're done!
 
