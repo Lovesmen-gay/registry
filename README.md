@@ -8,12 +8,11 @@ This is a registry for free subdomains on the domain lovesmen.gay.
 ```
 {
     "owner": {
-        "username": "MrArtyH"
+        "username": "User"
     },
 
     "record": {
-        "MX": ["mail.protonmail.ch", "mailsec.protonmail.ch"],
-        "TXT": ["protonmail-verification=8dbc9639530d0f12b7ff3830b4a7ddd58b535498", "v=spf1 include:_spf.protonmail.ch ~all"]
+        "CNAME": ["your-website.com"],
     }
 }
 ```
