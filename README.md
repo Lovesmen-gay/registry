@@ -4,7 +4,7 @@ This is a registry for free subdomains on the domain lovesmen.gay.
 ## How to use 
 1. Fork this repo
 2. Make a JSON file in domains, the name of the json being how you would like to call the subdomain (for example, if you want arty.lovesmen.gay, you would need to call the JSON arty.json)
-3. Make a json file like so:
+3. Make a JSON file like so:
 ```
 {
     "owner": {
@@ -17,6 +17,7 @@ This is a registry for free subdomains on the domain lovesmen.gay.
 }
 ```
 You can use many records, such as MX, TXT, CNAME, A and AAAA, including many others.
+You can also add other records.
 4. Send a pull request with the newly added JSON file
 5. Wait until it gets accepted and you're done!
 
