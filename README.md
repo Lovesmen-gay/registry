@@ -12,7 +12,7 @@ This is a registry for free subdomains on the domain lovesmen.gay.
     },
 
     "record": {
-        "CNAME": ["your-website.com"],
+        "CNAME": "your-website.com",
     }
 }
 ```
